@@ -3,6 +3,7 @@ PyPDF2
 transformers
 pipeline
 nltk
+pdfplumber
 torch
 tensorflow
 keras
