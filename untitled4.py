@@ -10,7 +10,7 @@ Original file is located at
 import nltk
 #nltk.download('punkt')
 #nltk.download('punkt-tab')
-nltk.download('all')
+nltk.download()
 
 import streamlit as st
 from transformers import pipeline
@@ -87,6 +87,9 @@ if uploaded_file:
         st.error(f"An error occurred: {e}")
 else:
     st.info("Please upload a PDF file to get started.")
+
+if __name__ == "__main__":
+    main()
 
 #!streamlit run pdf.main.streamlit_app.py
 
