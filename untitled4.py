@@ -10,7 +10,7 @@ Original file is located at
 import nltk
 #nltk.download('punkt')
 #nltk.download('punkt-tab')
-nltk.download()
+nltk.download('all')
 
 import streamlit as st
 from transformers import pipeline
