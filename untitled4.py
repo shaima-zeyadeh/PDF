@@ -88,8 +88,6 @@ if uploaded_file:
 else:
     st.info("Please upload a PDF file to get started.")
 
-#if __name__ == "__main__":
-main()
 
 #!streamlit run pdf.main.streamlit_app.py
 
